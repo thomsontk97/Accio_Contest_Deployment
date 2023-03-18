@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    ></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <!-- CompanyName -->
+        <a class="navbar-brand" href="#">My Website</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Collapsing Menu -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active click" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link click" href="#">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link click" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- NavBar End-->
+    <!-- Main -->
+    <div class="container-sm mt-2">
+      <!-- Carousel -->
+      <h1>Bootstrap Example</h1>
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide mt-1"
+        data-bs-ride="false"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://images.pexels.com/photos/1933239/pexels-photo-1933239.jpeg?cs=srgb&dl=pexels-stein-egil-liland-1933239.jpg&fm=jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://wallpapers.com/images/featured/1zgeq4ny98yzpzkp.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>
+                Some representative placeholder content for the second slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://assets.hongkiat.com/uploads/100-absolutely-beautiful-nature-wallpapers-for-your-desktop/blue-sea-sunset.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>
+                Some representative placeholder content for the third slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1491466424936-e304919aada7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Fourth slide label</h5>
+              <p>
+                Some representative placeholder content for the fourth slide.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Carousel End-->
+      <!-- Some Content -->
+      <h2 class="mt-4">Some Content</h2>
+      <p class="fs-5">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nemo amet
+        alias omnis repudiandae porro, maxime molestias blanditiis ratione
+        fugiat autem, doloremque tempore provident deleniti eligendi debitis
+        cupiditate corporis id veniam animi. Possimus cum ipsam, veritatis
+        dolorem minus amet commodi praesentium dolore debitis excepturi non sunt
+        odio enim, iure nihil, provident repellat aliquam? Maiores deserunt
+        officiis, doloremque excepturi fugit laboriosam eligendi dolor alias
+        ipsam dolores, dolorum facere nisi. Repellendus eaque temporibus harum,
+        alias labore rem culpa odit commodi doloremque minus est. Officiis
+        inventore nemo sapiente tenetur nam corrupti placeat quas dignissimos
+        perspiciatis corporis officia, adipisci odit provident laudantium
+        accusamus culpa rerum reiciendis labore eveniet commodi ipsum sit.
+        Asperiores, expedita.
+      </p>
+      <p class="fs-5">
+        Temporibus, eos incidunt! Repellat delectus voluptate quos eaque vero!
+        Suscipit non doloremque id nesciunt dolorum nam qui dignissimos ex
+        ducimus vero. Aliquid laudantium esse quis natus explicabo vitae? Sit
+        esse quasi impedit quod adipisci inventore, earum vel numquam fugiat
+        temporibus provident, nesciunt labore ipsum deserunt porro qui maiores
+        ex error similique iure! Natus nesciunt reprehenderit distinctio
+        voluptas similique dicta neque praesentium voluptatem, quam nulla ex
+        obcaecati laboriosam aperiam corrupti et, adipisci commodi atque at id
+        dignissimos fuga itaque totam error nam? Ipsa iusto veritatis alias ad
+        perferendis culpa doloremque nisi repellendus?
+      </p>
+      <!-- Some Content End -->
+      <!-- Cards -->
+      <div class="card-group mt-4">
+        <div class="card m-2">
+          <img
+            src="../Art of Architecture.jpeg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+              quisquam eveniet repudiandae itaque, quis iste id perferendis
+              quasi dolores magni veritatis, atque quidem libero sunt quaerat,
+              nisi deserunt aliquid adipisci. Quis porro officia ad maiores. Et
+              error delectus amet in enim, nulla assumenda velit doloremque nemo
+              earum tempora, nesciunt adipisci?
+            </p>
+            <a href="#" class="btn btn-primary">Read more</a>
+          </div>
+        </div>
+        <div class="card m-2">
+          <img
+            src="../Art of Architecture.jpeg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque, eum dolores. Nemo unde provident, at debitis nostrum
+              minima dolore similique excepturi odit optio expedita quibusdam,
+              nihil architecto! Deserunt ratione possimus perspiciatis
+              repellendus corporis enim tempora repellat aspernatur unde
+              temporibus libero quisquam qui numquam, nostrum quidem
+              voluptatibus pariatur nulla ullam autem!
+            </p>
+            <a href="#" class="btn btn-primary">Read more</a>
+          </div>
+        </div>
+        <div class="card m-2">
+          <img
+            src="../Art of Architecture.jpeg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam
+              porro iure ad provident, quaerat excepturi suscipit, inventore
+              voluptatum vitae, accusamus cupiditate totam vel recusandae.
+              Necessitatibus nobis quam suscipit enim provident atque temporibus
+              harum expedita accusamus. Eum, eos ea voluptas et dignissimos hic
+              nobis sequi. Alias, beatae nemo. Voluptatibus, a tempore?
+            </p>
+            <a href="#" class="btn btn-primary">Read more</a>
+          </div>
+        </div>
+      </div>
+      <!-- Cards End -->
+    </div>
+    <!-- Main End -->
+    <!-- Line -->
+    <div class="divider bg-info m-4" style="width: 100vw; height: 2px"></div>
+    <!-- Line end -->
+    <!-- Main-2 -->
+    <div class="container-sm mt-2">
+      <!-- Form -->
+      <h2>Form</h2>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Name</label>
+        <input
+          type="text"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="Enter your name"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email</label>
+        <input
+          type="email"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="Enter your email"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label"
+          >Message</label
+        >
+        <textarea
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="3"
+          placeholder="Enter your message"
+        ></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary mb-3">Submit</button>
+      <!-- Form End -->
+      <!-- Table -->
+      <h2 class="m-2">Table</h2>
+      <table class="table table-group-divider">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Message</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>John Smith</td>
+            <td>john@example.com</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jane owe</td>
+            <td>jane@example.com</td>
+            <td>Lorem, ipsum dolor.</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Bob Johnson</td>
+            <td>bob@example.com</td>
+            <td>Lorem, ipsum.</td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- Table End -->
+    </div>
+    <!-- Main-2 End -->
+  </body>
+</html>

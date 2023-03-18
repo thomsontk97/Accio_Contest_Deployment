@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    /* So the elements will fit 100% of the width */
+}
+nav{
+    background-color: black;
+    padding: 30px;
+    border: 0px;
+    max-width:100%
+}
+#title{
+    margin-right: 900px;
+}
+span{
+    color: #FFF;
+    font-size: 24px;
+    margin-left: 20px;
+    /* margin-right:900px; */
+
+}
+
+h1{
+    font-size: 64px;
+    font-weight: 400;
+    margin-left: 38px;
+    
+}
+
+p{
+    font-size: 24px;
+    margin-left: 38px;
+}
+
+button{
+    margin-left: 38px;
+    padding: 10px 35px 10px 17px;
+    background-color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.learn{
+    font-size: 24px;
+    color:#FFF;
+    font-weight: 400;
+}
+img{
+    margin-left: 38px;
+
+}
+
+.list{
+    font-size: 24px;
+    margin-left: 38px;
+    margin-bottom: 50px;
+}
+
+a.nav:link, a.nav:visited{
+    background-color: black;
+    color: antiquewhite;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.nav:hover, a.nav:active{
+    color: crimson;
+    text-decoration: underline;
+}
+
+a.link:link,a.link:visited{
+    color: antiquewhite;
+    text-decoration: none;
+    background-color: black;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 38px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+a.link:hover,a.link:active{
+    background-color: antiquewhite;
+    color: black;
+    border: 2px solid black;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
